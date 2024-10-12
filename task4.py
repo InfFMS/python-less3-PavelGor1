@@ -3,7 +3,7 @@
 x  = int(input())
 s =0
 while x !=0:
-    if x%10==5:
+    if x%10==5 or x%10==0:
         s += x
     x = int(input())
 print("Сумма чисел, делящихся на 5:",s)
